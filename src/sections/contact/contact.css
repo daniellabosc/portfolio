@@ -1,0 +1,47 @@
+#contact{
+    padding-bottom:0px
+}
+
+.contact__container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    background-image: url('../../assets/contact-img.png');
+    background-repeat: none;
+    background-size:cover;
+    height: 83%
+}
+
+.contact__container a {
+    width: 55rem;
+    height: 5rem;
+    color: white;
+    background: var(--color-primary);
+    font-size: 2rem;
+    border: 2px solid transparent;
+    border-radius: var(--border-radius-1);
+    text-align:center;
+    margin-bottom:1rem
+}
+
+.contact__container a:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    transform: translateY(-0.5rem);
+}
+
+
+
+/* MEDIA QUERIES (phones) */
+@media screen and (max-width: 600px) {
+    .contact__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .contact__container a {
+        width: 90%;
+    }
+}
