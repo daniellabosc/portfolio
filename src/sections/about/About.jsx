@@ -15,7 +15,7 @@ const About = () => {
           </div>
         </div>
         <div className="about__right">
-          <h5>Malgorzata Phillips - Frontend/Fullstack Developer</h5>
+          <h5>Malgorzata Phillips - Frontend/Web Developer</h5>
           <br />
 
           <p>
@@ -29,7 +29,7 @@ const About = () => {
             am seeking a role that is creative, innovative, and most
             importantly, engaging.
             <br />
-            <br />I am a US citizen and currently reside in Las Vegas, NV.
+            <br />I am a US citizen and currently reside in Phoenix, AZ.
             <br />
             <br />
             margaretphillips003@gmail.com

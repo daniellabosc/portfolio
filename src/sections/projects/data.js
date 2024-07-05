@@ -4,10 +4,7 @@ import {BiHappyHeartEyes} from 'react-icons/bi'
 
 
 const data = [
-    {id: 0, icon: <FaAward/>, job: 'NOAA', title: "UI Developer",
-    points: [],
-    desc: "I am currently working on a contract at NOAA. I work with graphics, libraries, hooks, state management and design. I implement frontend work from Figma."},
-    {id: 1, icon: <FaAward/>, job:'Quicken Loans', title: 'Software Engineer', 
+    {id: 1, icon: <FaAward/>, job:'Rocket Mortgage', title: 'Software Engineer', 
     points: ["Maintained and enhanced software built in React",
     "Worked with a designer to implement front end code",
     "Customized CSS for bots",

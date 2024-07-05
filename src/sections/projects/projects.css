@@ -41,6 +41,7 @@
 
 .card.projects__card {
     text-align: left;
+    margin-bottom: .5rem;
 }
 
 .projects__card-icon {
