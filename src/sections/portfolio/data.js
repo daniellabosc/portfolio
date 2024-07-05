@@ -1,7 +1,6 @@
 import Image1 from '../../assets/responsive-software.png'
 import Image2 from '../../assets/BornByOne_4.png'
 import Image3 from '../../assets/Grace_1.png'
-import Image4 from '../../assets/NOAA.png'
 import Image5 from '../../assets/PutItFwd_2.png'
 import Image6 from '../../assets/CCCW_1.png'
 import Image7 from '../../assets/KSMinistry_1.png'

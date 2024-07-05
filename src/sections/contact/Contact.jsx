@@ -1,6 +1,5 @@
 import data from "./data";
 import "./contact.css";
-import Card from "../../components/Card";
 
 const Contact = () => {
   return (

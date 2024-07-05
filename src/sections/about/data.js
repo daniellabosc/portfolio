@@ -1,6 +1,3 @@
-import {FaAward} from 'react-icons/fa'
-import {TbBooks} from 'react-icons/tb'
-import {BiHappyHeartEyes} from 'react-icons/bi'
 import ReactImg from '../../assets/react.png'
 import NodeImg from '../../assets/node.png'
 import AwsImg from '../../assets/aws.png'
