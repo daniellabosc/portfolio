@@ -1,6 +1,5 @@
 import Navbar from './sections/navbar/Navbar';
 import About from './sections/about/About';
-import Services from './sections/services/Services';
 import Portfolio from './sections/portfolio/Portfolio';
 import Projects from './sections/projects/Projects';
 import Contact from './sections/contact/Contact';
@@ -18,7 +17,6 @@ const App = () => {
     <main className={`${themeState.primary} ${themeState.background}`} ref={mainRef}>
         <Navbar/>
         <About/>
-        {/* <Services/> */}
         <Projects/>
         <Portfolio/>
         <Contact/>
