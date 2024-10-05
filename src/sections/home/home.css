@@ -88,19 +88,20 @@
 
 
 /* MEDIA QUERIES (tablets) */
-/* @media screen and (max-width: 1024px) {
-    .home__left {
-        display: none;
-    }
+ @media screen and (max-width: 1024px) {
 
     .home__container {
         grid-template-columns: 1fr;
     }
-
-    .home__right h2 {
-        text-align: center;
+    .home__container .home__section:nth-child(1){
+        width:100%;
+        margin-bottom:2rem;
     }
-} */
+    .home__container .home__section:nth-child(2){
+  
+        display:none;
+    }
+} 
 
 
 /* MEDIA QUERIES (phones) */
