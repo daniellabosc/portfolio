@@ -1,4 +1,4 @@
-#contact{
+.contact__container{
     padding-bottom:0px
 }
 
@@ -6,14 +6,14 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
-    background-image: url('../../assets/contact-img.png');
-    background-repeat: none;
-    background-size:cover;
-    height: 83%
+    _background-image: url('../../assets/contact-img.png');
+    _background-repeat: none;
+    _background-size:cover;
+    _height: 83%
 }
 
 .contact__container a {
-    width: 55rem;
+    _width: 55rem;
     height: 5rem;
     color: white;
     background: var(--color-primary);
