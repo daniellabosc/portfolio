@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 15vw;
     grid-gap: 2rem;
+    margin-top:3rem;
 }
 .home__container .home__section{
     text-align: center;
