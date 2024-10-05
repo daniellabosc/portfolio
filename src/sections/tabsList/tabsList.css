@@ -1,0 +1,22 @@
+.tabsList__container{
+    background-color: #eee;
+    padding:2rem;
+    text-align: left;
+}
+
+.tabsList__card h5{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.tabsList__desc{
+    text-align: left;
+}
+
+.tabsList__container .projects__container p {
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+
+ .tabsList__cloud span{
+    padding:2rem
+  }

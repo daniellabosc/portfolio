@@ -1,30 +1,35 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
+import '../tabsList/react-tabs.css';
+import '../tabsList/tabsList.css'
 import data from "../tabsList/data";
 import projectData from '../projects/data'
 import TabItem from '../../components/TabItem'
 
 const TabsList = ()=>{
 
-    return (<Tabs>
+    return (
+    
+    <section>
+      <div className="tabsList__container">
+    <Tabs>
         <TabList>
           {data.map((item)=><Tab>{item}</Tab>)}
         </TabList>
 
 {
                         projectData.map(item => (
-                            <TabPanel key={item.id} className="projects__card">
+                            <TabPanel key={item.id} className="tabsList__card">
                                 <h5>{item.job} - {item.title}</h5>
-                                {item.points.length > 0 && 
-                                <ul>
-                                {item.points.map((point, index)=><li key={index}>{point}</li>)}
-                                </ul>}
-                                <p className="projects__desc">{item.desc}</p>
+                                <p className="tabsList__desc">{item.desc}</p>
+                                {item.tech.length > 0 && 
+                                <div  className="tabsList__cloud">
+                                {item.tech.map((point)=><span key={point}>{point}</span>)}
+                                </div>}
                             </TabPanel>
                         ))
                     } 
         
         
-      </Tabs>)
+      </Tabs></div></section>)
 }
 export default TabsList

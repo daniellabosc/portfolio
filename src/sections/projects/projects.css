@@ -2,7 +2,7 @@
     text-align:center;
 }
 .projects__container p {
-    text-align:center;
+    text-align:left;
     margin-bottom: 2rem;
 }
 .projects__container ul {
@@ -61,9 +61,9 @@
     color: var(--color-white);
 }
 
-.card.projects__card h5 {
-    margin: 1rem 0;
-}
+/* .card.projects__card h5 {
+    margin: 2rem;
+} */
 
 .projects__right p {
     margin-bottom: 0.8rem;
