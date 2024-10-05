@@ -9,11 +9,11 @@
 }
 
 :root {
-    --primary-hue: 270;
+    --primary-hue: 570;
     --black-lightness: 15%;
     --dark-lightness: 4%;
-    --light-lightness: 94%;
-    --white-lightness: 100%;
+    --light-lightness: 64%;
+    --white-lightness: 91%;
     --color-primary: hsl(var(--primary-hue), 89%, 41%);
     --color-white: hsl(0, 5%, var(--white-lightness));
     --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
@@ -55,7 +55,7 @@ body {
 
 /* THEME change using react */
 main.color-1 {
-    --primary-hue: 270;
+    --primary-hue: 570;
 }
 main.color-2 {
     --primary-hue: 110;
@@ -86,7 +86,7 @@ main.bg-2 {
 
 main {
     color: var(--color-dark);
-    --color-primary: hsl(var(--primary-hue), 89%, 41%);
+    --color-primary: hsl(var(--primary-hue), 69%, 56%);
 }
 
 
@@ -105,7 +105,7 @@ main {
 
 /* GENERAL SECTION STYLES */
 section {
-    padding: 10rem 0;
+    padding: 6rem 0;
     background: var(--color-light);
     transition: var(--transition);
 }

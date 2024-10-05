@@ -1,4 +1,5 @@
 import Navbar from './sections/navbar/Navbar';
+import Home from './sections/home/Home'
 import About from './sections/about/About';
 import Portfolio from './sections/portfolio/Portfolio';
 import Projects from './sections/projects/Projects';
@@ -14,11 +15,11 @@ const App = () => {
   const mainRef = useRef();
 
   return (
-    <main className={`${themeState.primary} ${themeState.background}`} ref={mainRef}>
+    <main>
         <Navbar/>
-        <About/>
-        <Projects/>
-        <Portfolio/>
+        <Home />
+        {/* <Projects/> */}
+        {/* <Portfolio/> */}
         <Contact/>
         <Footer/>
         <Theme/>

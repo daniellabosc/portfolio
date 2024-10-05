@@ -1,0 +1,6 @@
+.summary__container {
+    display: grid;
+    grid-template-columns: 1fr 50%;
+    grid-gap: 2rem;
+    background:transparent
+}
