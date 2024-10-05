@@ -3,7 +3,7 @@ import '../tabsList/react-tabs.css';
 import '../tabsList/tabsList.css'
 import data from "../tabsList/data";
 import projectData from '../projects/data'
-import TabItem from '../../components/TabItem'
+
 
 const TabsList = ()=>{
 
