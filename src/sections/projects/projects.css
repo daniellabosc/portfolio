@@ -1,6 +1,8 @@
+#projects{
+    padding:0
+}
 .projects__container {
-
-    padding: 0 4rem
+    padding: 0 6rem;
 }
 .projects__card{
     border:1px solid transparent;
