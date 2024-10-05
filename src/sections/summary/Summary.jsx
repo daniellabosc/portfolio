@@ -8,16 +8,20 @@ const Summary = ()=>{
                 <div className="container summary__container">
                     <ul>
                         {data.map((item, index)=>{
-                            if(index%2===0){
-                               return <li key={item}>{item}</li>
-                            }                            
-                            })}
+                                if(index%2===0){
+                                return <li key={item}>{item}</li>
+                                }  
+                                return true                          
+                            }
+                            
+                        )}
                     </ul>
                     <ul>
                         {data.map((item, index)=>{
                             if(index%2!==0){
                                return <li key={item}>{item}</li>
-                            }                            
+                            }        
+                            return true                    
                             })}
                     </ul>
                 </div>
