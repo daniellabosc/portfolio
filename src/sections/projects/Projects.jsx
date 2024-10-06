@@ -12,11 +12,12 @@ const Projects = () => {
             {data.map((item)=>{
                 return (
                     <div className="container projects__card">
-                   <p>{item.job} - {item.title}</p>
+                   <h5>{item.job} - {item.title}</h5>
+                   <blockquote>{item.desc}</blockquote>
                    <span  className="projects__cloud">
                     {item.tech.map((i)=>{
                         return (
-                            <span>{i}</span>
+                            <span><strong>{i}</strong></span>
                         )
                     })}
                    </span>

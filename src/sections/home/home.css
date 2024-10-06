@@ -86,21 +86,38 @@
     margin-top: 2.5rem;
 }
 
-
+.home__responsive{
+    display:none;
+}
 
 /* MEDIA QUERIES (tablets) */
  @media screen and (max-width: 1024px) {
 
+    .home__responsive{
+        display:block;
+    }
+
     .home__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: auto;
+        display:flex;
+        flex-direction: row wrap;
     }
     .home__container .home__section:nth-child(1){
-        width:100%;
+        width:100vw;
         margin-bottom:2rem;
+        display:none;
     }
     .home__container .home__section:nth-child(2){
-  
-        display:none;
+        width:60vw;
+        text-align: left;
+    }
+    .home__container .home__section:nth-child(3){
+        width:40vw;
+        _display:none;
+    }
+    .home__contact{
+        font-size: .9rem;
+        margin-right:.5rem;
     }
 } 
 
