@@ -46,3 +46,16 @@
         width: 90%;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .contact__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.5rem;
+        display:block;
+    }
+    .contact__container a {
+        width: 90%;
+    }
+}

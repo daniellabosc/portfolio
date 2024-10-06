@@ -123,16 +123,20 @@
 
 
 /* MEDIA QUERIES (phones) */
-/* @media screen and (max-width: 600px) {
-.home__cards {
-    display:none;
-}
+@media screen and (max-width: 600px) {
+    .home__container .home__section:nth-child(1){
+        width:100vw;
+        margin-bottom:2rem;
+        display:block;
+    }
+    .home__container .home__section:nth-child(2){
+        width:60vw;
+        text-align: left;
+        display:none;
+    }
+    .home__container .home__section:nth-child(3){
+        width:40vw;
+        display:none;
+    }
 
-.home__right .btn {
-    margin-top: 2rem;
 }
-.home__right h2{
-    display:none
-}
-
-}  */
