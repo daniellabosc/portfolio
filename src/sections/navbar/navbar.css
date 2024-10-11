@@ -44,7 +44,7 @@ nav {
 
 /* HIDE NAV MENU ON TABLETS AND PHONES */
 @media screen and (max-width: 1024px) {
-    /* .nav__menu {
+    .nav__container .nav__menu:nth-child(2) {
         display: none;
-    } */
+    } 
 }

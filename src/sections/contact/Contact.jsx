@@ -3,7 +3,7 @@ import "./contact.css";
 
 const Contact = () => {
   return (
-    <section id="contact">
+    <section id="contact"  style={{backgroundColor: "white"}}>
       <div className="container contact__container" data-aos="fade-up">
         {data.map((item) => (
           <div>

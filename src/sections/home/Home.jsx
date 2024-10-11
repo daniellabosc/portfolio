@@ -6,7 +6,7 @@ import Summary from '../summary/Summary'
 
 const Home = ()=>{
     return (
-        <section id="home" data-aos="fade-in">
+        <section id="home" data-aos="fade-in" style={{backgroundColor: "white"}}>
         <div className="container home__container">
             <div className="home__section">
                 <h5 class="home__desc">{data}</h5>
