@@ -2,10 +2,10 @@
     background-color: #eee;
     padding:2rem;
     text-align: left;
+    
 }
-
 .tabsList__card h5{
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 .tabsList__desc{
@@ -17,7 +17,17 @@
     margin-bottom: 2rem;
   }
 
+  .tabsList__cloud{
+    margin-top:2rem;
+    font-weight:bold
+  }
  .tabsList__cloud span{
     padding-right:2rem;
     font-weight:bold
+  }
+
+  @media screen and (max-width:1024px){
+    .nav__container .nav__menu:nth-child(2){
+        display:none
+    }
   }

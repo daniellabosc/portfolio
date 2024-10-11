@@ -15,6 +15,10 @@ const Navbar = () => {
           }
         </ul>
          {/* <button id='theme__icon' onClick={showModalHandler}><IoIosColorPalette/></button>  */}
+         <ul className='nav__menu'>
+            <li><a href="mailto:margaretphillips003@gmail.com">margaretphillips003@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/margaretphillips/">https://www.linkedin.com/in/margaretphillips/</a></li>
+         </ul>
       </div>
     </nav>
   )

@@ -6,21 +6,10 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
-    _background-image: url('../../assets/contact-img.png');
-    _background-repeat: none;
-    _background-size:cover;
-    _height: 83%
 }
 
 .contact__container a {
-    _width: 55rem;
-    height: 5rem;
-    color: white;
-    background: var(--color-primary);
-    font-size: 2rem;
-    border: 2px solid transparent;
-    border-radius: var(--border-radius-1);
-    text-align:center;
+    font-size: 1.2rem;
     margin-bottom:1rem
 }
 
@@ -40,7 +29,7 @@
         flex-direction: column;
         justify-content: center;
         gap: 1.5rem;
-        display:none;
+       
     }
     .contact__container a {
         width: 90%;

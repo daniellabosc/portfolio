@@ -7,11 +7,10 @@ const Contact = () => {
       <div className="container contact__container" data-aos="fade-up">
         {data.map((item) => (
           <div>
-          <a href={item.desc} className="btn primary">
-            {item.icon}
-            {item.title}
-          
-          </a>
+          <span>
+            <a href={item.href}>
+            {item.desc}</a>
+          </span>
           </div>
         ))}
       </div>

@@ -16,7 +16,7 @@ const TabsList = ()=>{
           {data.map((item)=><Tab>{item}</Tab>)}
         </TabList>
 
-{
+{  
                         projectData.map(item => (
                             <TabPanel key={item.id} className="tabsList__card">
                                 <h5>{item.job} - {item.title}</h5>
