@@ -7,15 +7,23 @@
 .projects__card{
     border:1px solid transparent;
     border-radius:.5rem;
-    padding:2rem;
+    padding:4rem 6rem;
 }
-
+.projects__card h5{
+    margin-bottom:2rem;
+}
+.projects__cloud{
+margin-top:2rem;
+}
 .projects__cloud span{
-    padding-right:1rem;
-    
+    border:1px solid #333;
+    background-color:#eee;
+    border-radius: 1rem;
+    padding:1rem;
+    margin:.5rem
 }
 .projects__responsive{
-    display:none;
+    __display:none;
 }
 
 /* MEDIA QUERIES (tablets) */
