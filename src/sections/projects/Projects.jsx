@@ -1,6 +1,6 @@
 import './projects.css'
 import data from '../projects/data'
-import Tabs from '../tabsList/TabsList'
+//import Tabs from '../tabsList/TabsList'
 
 const Projects = () => {
   return (
