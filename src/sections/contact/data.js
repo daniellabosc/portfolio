@@ -1,4 +1,4 @@
-import {AiOutlineMail, AiOutlineLinkedin, AiOutlinePhone} from 'react-icons/ai'
+import {AiOutlineMail, AiOutlineLinkedin} from 'react-icons/ai'
 
 
 const data = [
