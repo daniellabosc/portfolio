@@ -28,11 +28,13 @@ margin-top:2rem;
 
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
-    .projects__container {
+    .projects__container,.projects__cloud {
         display:none;
     }
-    .projects__responsive {
+    .projects__card{
         display:block;
+        width:80vw;
+        padding:12px;
     }
 }
 
