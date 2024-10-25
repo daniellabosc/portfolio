@@ -106,7 +106,7 @@ main {
 /* GENERAL SECTION STYLES */
 section {
     padding: 3rem 0;
-    background:#eee;
+    background:white;
     _background: var(--color-light);
     transition: var(--transition);
 }
