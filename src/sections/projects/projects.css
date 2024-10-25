@@ -15,10 +15,7 @@
 .projects__cloud{
 margin-top:2rem;
 }
-.projects__cloud span{
-    border:1px solid #333;
-    background-color:white;
-    border-radius: 1rem;
+.projects__cloud span{   
     padding:1rem;
     margin:.5rem
 }
