@@ -9,6 +9,7 @@ const data = [
             "Used HTML/CSS to customize the appearance of bots including responsive design",
             "Built lambdas and services in Node on AWS",
             "Worked within Sharepoint to build and style Einstein bots",
+            "Built an integration for Athena written in Python",
             "Used Terraform to build servers and Circle CI for deployments"],
     desc: 'As part of a high-performance team of talented engineers I worked on chat and SMS applications using Node, React, AWS, Salesforce and Watson. I also worked with HTML and CSS to customize the appearance of a bot, and when maintaining our internal management application. A primary focus of this work is to capture and share lead data with our partners. Our apps also determined how to best serve the customer when making direct transfers from the chat client to a live agent. ',
     tech:['React', 'HTML', "CSS", 'Node', 'AWS', "Salesforce"]

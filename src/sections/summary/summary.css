@@ -1,12 +1,12 @@
 .summary__container {
-    display: grid;
-    grid-template-columns: 1fr 50%;
-    grid-gap: 2rem;
-    background:transparent
+  display: grid;
+  grid-template-columns: 1fr 50%;
+  grid-gap: 2rem;
+  background: transparent;
 }
 
-@media screen and (max-width:1024px){
-    .summary__container{
-        display:none
-    }
+@media screen and (max-width: 1024px) {
+  .summary__container {
+    display: none;
+  }
 }
