@@ -30,7 +30,7 @@ const data = [
         ],
     
     desc: 'During my time at Switch I worked with a dynamic group of engineers to build front-end applications for this company. I was responsible for building and maintaining software created with Vue and Vuex. I built views using CSS, SASS and Responsive Design and implemented API consumers in the front-end of the application. I customized and used design components from Quasar. I also worked on the Customer Portal, DCIM, and Intranet projects. I was also the team lead on the Customer Portal project. ',
-    tech: ["Vue", "Vuex", "API", "Html", "CSS"]},
+    tech: ["Vue", "Vuex", "HTML", "CSS"]},
     {id: 4, icon: <BiHappyHeartEyes/>, title: 'Software Engineer', job: 'Responsive Software', 
     points:["Worked with React on several applications",
 "Worked with Angular on several application",

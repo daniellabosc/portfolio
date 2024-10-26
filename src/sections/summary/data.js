@@ -1,6 +1,6 @@
 
 const data = ["Frontend work with React",
-"Frontend work with Vue, Angular",
+"Frontend work with Vue, Angular, Typescript",
 "Responsive UI layout/design with HTML and CSS",
 "Proficiency with Bootstrap",
 "Backend work with Node, PHP",
